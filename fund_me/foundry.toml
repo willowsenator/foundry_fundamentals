@@ -1,6 +1,7 @@
 [profile.default]
+evm_version = "istanbul"
 src = "src"
-out = "out"
+out = "zkout"
 libs = ["lib"]
 remappings = [
     "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
